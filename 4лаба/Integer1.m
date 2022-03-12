@@ -1,5 +1,5 @@
 function s=Integer1(left,right,Func)
-N=1000000;
+N=100000000;
 s=0;
 step=(right-left)/N;
 current=left;
