@@ -1,0 +1,15 @@
+function x = Iteration(A,B)
+  AB = [A B];
+  countRows =size(A,1);
+  countColumn =size(A,2);
+  listString = zeros(countColumn,1);
+for i =1 :countColumn
+   listString(i) =  MaxAbs(A(:,i));
+   AB(i,1:countColumn) = A(listString(i),:);
+end
+for i = 1:size(A)
+a(i,1:size(A)) = -AB(i,1:size)/AB(i,i);
+a(i,i) = 0;
+b(i,1) = AB(i,4)/AB(i,i);
+end
+end
