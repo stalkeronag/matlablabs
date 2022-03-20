@@ -7,5 +7,6 @@ function value=Function(left,right,Func)
        left=center;
      end
  end
-center=(left+right)/2;
+center=(left+right)/2
+value=center;
 end

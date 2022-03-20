@@ -3,4 +3,7 @@ x=0:0.01:4;
 plot(x,sc(x));
 x0=1.5;
 x1=3;
-Function(x0,x1,sc);
+value = Function(x0,x1,sc);
+%test
+coefs=[1 11 -8 -25];
+r=roots(coeffs)
