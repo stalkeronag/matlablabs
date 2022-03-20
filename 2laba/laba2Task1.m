@@ -5,5 +5,4 @@ x0=1.5;
 x1=3;
 value = Function(x0,x1,sc);
 %test
-coefs=[1 11 -8 -25];
-r=roots(coeffs)
+r=roots([1 11 -8 -25])
